@@ -8,5 +8,8 @@
 import Foundation
 
 class ViewController: ObservableObject {
+    @Published var hasLoggedIn: Bool = false
     
+    init() {
+    }
 }
