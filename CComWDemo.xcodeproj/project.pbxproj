@@ -12,6 +12,7 @@
 		3E65BCC429A4CB01009F0692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E65BCC329A4CB01009F0692 /* Assets.xcassets */; };
 		3E65BCC729A4CB01009F0692 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E65BCC629A4CB01009F0692 /* Preview Assets.xcassets */; };
 		3E65BCD529A81674009F0692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E65BCD429A81674009F0692 /* ViewController.swift */; };
+		3E65BCDB29A817B5009F0692 /* Etonian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E65BCDA29A817B5009F0692 /* Etonian.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3E65BCC329A4CB01009F0692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E65BCC629A4CB01009F0692 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E65BCD429A81674009F0692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E65BCDA29A817B5009F0692 /* Etonian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etonian.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		3E65BCD629A8168C009F0692 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3E65BCDA29A817B5009F0692 /* Etonian.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				3E65BCD529A81674009F0692 /* ViewController.swift in Sources */,
 				3E65BCC229A4CAFF009F0692 /* ContentView.swift in Sources */,
+				3E65BCDB29A817B5009F0692 /* Etonian.swift in Sources */,
 				3E65BCC029A4CAFF009F0692 /* CComWDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
