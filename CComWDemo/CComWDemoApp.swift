@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct CComWDemoApp: App {
+    
+    @StateObject var state = ViewController()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            if state.hasLoggedIn {
+                WelcomeView()
+                    .environmentObject(state)
+            }
+            else {
+                ContentView()
+                    .environmentObject(state)
+            }
         }
     }
 }

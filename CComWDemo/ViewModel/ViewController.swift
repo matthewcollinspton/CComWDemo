@@ -8,6 +8,7 @@
 import Foundation
 
 class ViewController: ObservableObject {
+    @Published var hasLoggedIn: Bool = false
     @Published var currentUser: Etonian? = nil
     
     init() {

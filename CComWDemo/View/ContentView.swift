@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var state: ViewController
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.teal)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.teal)
+                Text("Hello, world!")
+                Button("Hello") {
+                    state.hasLoggedIn = true
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
